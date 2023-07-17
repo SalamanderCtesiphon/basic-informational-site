@@ -1,8 +1,8 @@
 const https = require('https');
 
 const options = {
-  hostname: 'example.com',
-  port: 443,
+  hostname: 'localhost',
+  port: 8080,
   path: '/todos',
   method: 'GET',
 };
